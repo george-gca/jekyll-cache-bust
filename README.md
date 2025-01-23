@@ -1,5 +1,7 @@
 # jekyll-cache-bust
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-cache-bust.svg)](http://badge.fury.io/rb/jekyll-cache-bust)
+
 Have you ever updated a CSS file or an image, but the browser kept showing the old version? This plugin enables to easily cache-bust your site's assets. Cache-bust is a technique to force the browser to fetch a new version of a file whenever it changes, ignoring the cached content. It does so by appending a hash of the file's content to the file's name. This way, whenever the file's content changes, the hash changes and the browser will fetch the new file. The hash is calculated using the MD5 algorithm. Based on the implementation made by [Bryan Schuetz](https://distresssignal.org/busting-css-cache-with-jekyll-md5-hash/).
 
 ## Installation

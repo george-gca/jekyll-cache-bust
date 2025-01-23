@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = "Force updating cached files and resources in a Jekyll site by adding a hash."
   s.version     = Jekyll::CacheBust::VERSION
   s.authors     = ["George Corrêa de Araújo"]
-  s.homepage    = "https://george-gca.github.io/jekyll-cache-bust/"
+  s.homepage    = "https://github.com/george-gca/jekyll-cache-bust"
   s.licenses    = ["MIT"]
 
   # https://guides.rubygems.org/specification-reference/#metadata

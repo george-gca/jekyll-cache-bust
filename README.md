@@ -29,7 +29,7 @@ To cache-bust a single file, simply use the `bust_file_cache` filter in your tem
 This will output something like:
 
 ```html
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04">
 ```
 
 Note that this can be used to cache-bust any type of file, not just CSS.
@@ -62,5 +62,5 @@ To create a hash for your `main.scss` file considering the content of the whole 
 This will output something like:
 
 ```html
-<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="stylesheet" href="/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e">
 ```
